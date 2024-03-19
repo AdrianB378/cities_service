@@ -1,0 +1,58 @@
+{
+	"info": {
+		"_postman_id": "f3f166c1-50f1-45c0-9bae-a1efde913de6",
+		"name": "Hotels-Cities",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "32687322"
+	},
+	"item": [
+		{
+			"name": "localhost:8083/hotels/2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8083/hotels/2",
+					"host": [
+						"localhost"
+					],
+					"port": "8083",
+					"path": [
+						"hotels",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8082/cities/hotels?name=Rosario&country=Argentina",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8082/cities/hotels?name=Obera&country=Argentina",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"cities",
+						"hotels"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Obera"
+						},
+						{
+							"key": "country",
+							"value": "Argentina"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
